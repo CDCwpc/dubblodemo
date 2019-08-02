@@ -1,9 +1,8 @@
 package com.example.dao.mapper;
 
 
-
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.dao.entity.UserEntity;
+import entity.UserEntity;
 import org.springframework.stereotype.Repository;
 
 /**

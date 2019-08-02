@@ -1,4 +1,4 @@
-package com.example.dao.entity;
+package entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
