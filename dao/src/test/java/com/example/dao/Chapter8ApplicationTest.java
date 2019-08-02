@@ -59,11 +59,11 @@ public class Chapter8ApplicationTest {
 
 
         String userKey = "张三";
-//        UserEntity user = new UserEntity();
-//        user.setId(1);
-//        user.setAge(19);
-//        user.setName("张三");
-//        user.setEmail("一点也不清楚");
+        UserEntity user = new UserEntity();
+        user.setId(1);
+        user.setAge(19);
+        user.setName("张三");
+        user.setEmail("非常清楚");
 //
 //        redisTemplate.opsForValue().set(userKey, user);
         UserEntity newUser = (UserEntity) redisTemplate.opsForValue().get(userKey);
