@@ -8,6 +8,7 @@
     <artifactId>dubblodemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>dubblodemo</name>
 
     <modules>
         <module>dao</module>

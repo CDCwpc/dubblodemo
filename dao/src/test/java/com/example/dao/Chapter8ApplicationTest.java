@@ -63,9 +63,9 @@
 //        user.setName("张三");
 //        user.setEmail("非常清楚");
 ////
-//        redisTemplate.opsForValue().set(userKey, user);
-////        UserEntity newUser = (UserEntity) redisTemplate.opsForValue().get(userKey);
-////        System.out.println("获取缓存中key为" + userKey + "的值为：" + newUser);
+////        redisTemplate.opsForValue().set(userKey, user);
+//        UserEntity newUser = (UserEntity) redisTemplate.opsForValue().get(userKey);
+//        System.out.println("获取缓存中key为" + userKey + "的值为：" + newUser);
 //
 //    }
 //}
